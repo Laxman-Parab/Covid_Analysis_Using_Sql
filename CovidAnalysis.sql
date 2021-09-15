@@ -74,7 +74,7 @@ FROM PopvsVac
 -- Creting a Temp table.
 
 DROP Table if exists #PercentageVaccinated
-Create Table #PercentageVaccinated
+CREATE TABLE #PercentageVaccinated
 (
 Continent nvarchar(250),
 Location nvarchar(250),
